@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ijaz Ahmed Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 2s ease-out;
+        }
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            animation: slideIn 2s ease-out;
+        }
+        h1 {
+            margin-top: 10px;
+            animation: fadeIn 2s ease-out;
+        }
+        h2, p {
+            color: #333;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 80%;
+            max-width: 900px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .contact-links a {
+            text-decoration: none;
+            color: #007BFF;
+            margin: 5px;
+            font-weight: bold;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        .images-section img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .images-section img:hover {
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Ijaz.jpg" alt="Ijaz Ahmed">
+        <h1>Ijaz Ahmed Portfolio</h1>
+        <p>Geophysicist | Researcher | Academic</p>
+    </header>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>I am a Geophysicist specializing in **Non-Seismic Geophysics**, **Hydrogeology**, and **Climate Change**. I currently work at the Bureau of Geophysical Prospecting in China, focusing on market development, project operations, and tendering. I hold a Master's degree in Geological Resources & Geological Engineering from Central South University, China, and am passionate about environmental research and geophysical methods.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work-experience">
+        <div class="content">
+            <h2>Work Experience</h2>
+            <div class="card">
+                <h3>Bureau of Geophysical Prospecting, China</h3>
+                <p><strong>Role:</strong> Geophysicist | <strong>2024 - Present</strong></p>
+                <ul>
+                    <li>Conduct market research and analysis to enhance customer relationships.</li>
+                    <li>Prepare competitive proposals and manage the bidding process.</li>
+                    <li>Lead project teams and manage budgets ensuring quality control.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Matacon Pvt. Ltd., KPK, Pakistan</h3>
+                <p><strong>Role:</strong> Assistant Lab Technician | <strong>2019 - 2020</strong></p>
+                <ul>
+                    <li>Carried out construction material tests such as FDT, Modified Proctor test, CBR, etc.</li>
+                    <li>Conducted technical analysis and managed fieldwork data.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="content">
+            <h2>Publications</h2>
+            <div class="card">
+                <ul>
+                    <li><a href="https://10.3390/math13060978" target="_blank">Liu, H.; Zhang, Y.; Liu, X.; Ahmed, I.; Liu, J. An efficient and robust modelling method for massive scattered data, Mathematics 2025, 13, 978.</a></li>
+                    <li><a href="https://doi.org/10.3390/min15030287" target="_blank">Fahad, S.; Chen, R.; Chunming, L.; Ahmad, J.; Yaseen, M.; Ahmed, I.;...Joint Inversion of Audio-Magnetotelluric and Dual-Frequency Induced Polarization Methods, Minerals 2025.</a></li>
+                    <li><a href="https://www.frontiersin.org/articles/10.3389/fwater.2023.1540703/full" target="_blank">Muneer, M., Khan, M. A., Ahmed, I., et al., Groundwater intrinsic vulnerability using GIS, Frontiers in Water, 7, 1540703.</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="images" class="images-section">
+        <div class="content">
+            <h2>Images</h2>
+            <div class="card">
+                <img src="Image_2025-08-06_172731_045.jpg" alt="Geophysics Fieldwork">
+                <img src="Image_2025-08-06_172709_014.jpg" alt="Field Work Team">
+                <img src="Image_2025-08-06_172717_894.jpg" alt="Graduation Day">
+                <img src="Image_2025-08-06_172658_694.jpg" alt="Geophysics Research Team">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact</h2>
+            <div class="card">
+                <p>Email: <a href="mailto:ijazahmed2107@gmail.com">ijazahmed2107@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/jazyy" target="_blank">Ijaz Ahmed LinkedIn</a></p>
+                <p>ResearchGate: <a href="https://www.researchgate.net/profile/Ijaz-Ahmed-13" target="_blank">Ijaz Ahmed ResearchGate</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
